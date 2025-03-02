@@ -1,4 +1,4 @@
-
+var msg = document.getElementById("msgTxt")
 var btn = document.getElementById("heartTxt");
 btn.style.opacity = 0;
 var btnVal = 0;
@@ -15,6 +15,7 @@ function showImage(){
 }
 
 function play(){
+	msg.style.display = "none";
 	btn.style.display = "none";
 	if(t == 0){
 		myImage.setAttribute("src", "");

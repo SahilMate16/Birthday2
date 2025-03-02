@@ -14,7 +14,7 @@ body {
   /* Centered title */
   #msgTxt {
 	text-align: center;
-	color: #D3D3D3;
+	color: #ebc6c6;
 	font-size: 40px;
 	margin-top: -5px;
 	margin-bottom: 40px;
@@ -30,7 +30,7 @@ body {
 	width: 90%;
 	max-width: 600px;
 	text-align: center;
-	margin-top: 20rem;
+	margin-top: 35rem;
   }
   
 
@@ -43,7 +43,7 @@ body {
   
   #txt2, #txt3 {
 	/* padding-top: 50px; */
-	font-size: 1.5rem;
+	font-size: 1.9rem;
 	color: pink;
   }
   
@@ -53,13 +53,13 @@ body {
 	top: 5%;
 	width: 100%;
 	text-align: center;
-	color: #C0C0C0;
+	color: #cdf3dd;
   }
   
   #together {
 	font-family: 'Courier New', Courier, monospace;
 	margin-top: 110px;
-	font-size: 1.9rem;
+	font-size: 2.9rem;
   }
   #sac{
 	font-size: 20px;
@@ -70,7 +70,7 @@ body {
   }
   
   #d, #h, #m, #s {
-	font-size: 1.2rem;
+	font-size: 1.9rem;
   }
   
   /* Heart button */
@@ -83,13 +83,13 @@ body {
   }
   
   #clickMe {
-	font-size: 1.2rem;
+	font-size: 1.9rem;
 	color: white;
   }
   
   #heart {
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 70px;
   }
   
   #button {
@@ -120,8 +120,8 @@ body {
   
   #img {
 	display: block;
-	width: 50%; /* Set a fixed width */
-	height: 30%; /* Set a fixed height */
+	width: 80%; /* Set a fixed width */
+	height: 90%; /* Set a fixed height */
 	object-fit: cover; /* Ensures images maintain aspect ratio and crop properly */
 	border-radius: 10px; /* Adds smooth corners */
 	margin: auto; /* Centers the image */
@@ -173,4 +173,4 @@ body {
 	  height: 50px;
 	}
 	
-  
+}
