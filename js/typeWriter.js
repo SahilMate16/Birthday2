@@ -1,8 +1,8 @@
 
 let i = 0;
 
-let text1 = "Happy Birthday";
-let text2 = "kutri ruchika";
+let text1 = "Happy Birthday Ruchii..💌🥳[May all your wishes Comes true]";
+let text2 = "I Wish You Achieve All Things That You Want In Your Life";
 let text3 = "Today is the Big Day."
 let speed = 100;
 
