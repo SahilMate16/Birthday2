@@ -30,21 +30,22 @@ body {
 	width: 90%;
 	max-width: 600px;
 	text-align: center;
-	margin-top: 37rem;
+	margin-top: 4rem;
   }
   
 
   #txt1 {
 	
-	font-size: 2rem;
-	color: #B76E79;
+	font-size: 2.9rem;
+	color: #e8cdd1;
 
   }
   
   #txt2, #txt3 {
 	/* padding-top: 50px; */
-	font-size: 1.9rem;
-	color: pink;
+	font-size: 2.8rem;
+	color: rgb(210, 172, 178);
+	
   }
   
   /* Responsive countdown timer */
@@ -78,18 +79,23 @@ body {
 	position: absolute;
 	top: 85%;
 	left: 50%;
+	bottom: 50%;
 	transform: translateX(-50%);
 	text-align: center;
+	margin-bottom: 20px;
   }
   
   #clickMe {
-	font-size: 1.9rem;
+	font-size: 2.6rem;
 	color: white;
+	margin-bottom: 10px;
+	/* padding: 0px,20px,20px,50px;; */
   }
   
   #heart {
-	width: 80px;
-	height: 70px;
+	width: 100%;
+	height: 100px;
+	/* margin-bottom: 10%; */
   }
   
   #button {
@@ -129,8 +135,9 @@ body {
   }
   
   #Txt, #tmp {
-	font-size: 1.2rem;
-	color: white;
+	font-size: 2.3rem;
+	color: rgb(183, 217, 220);;
+	text-shadow: 2px 2px 4px rgba(243, 239, 239, 0.5); 
   }
   
   /* Responsive Design */
