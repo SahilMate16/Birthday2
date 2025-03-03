@@ -1,3 +1,4 @@
+var txt= document.getElementById("typeDiv");	
 var msg = document.getElementById("msgTxt")
 var btn = document.getElementById("heartTxt");
 btn.style.opacity = 0;
@@ -15,6 +16,7 @@ function showImage(){
 }
 
 function play(){
+
 	msg.style.display = "none";
 	btn.style.display = "none";
 	if(t == 0){
@@ -41,7 +43,7 @@ function preshowImage(){
 	if(imageIndex >= len){
 		imageIndex = 0;
 	}
-}
+}  
 
 function buttonFadeIn(){
 	if(btnVal < 1){
@@ -58,17 +60,25 @@ function buttonFadeIn(){
 
 
 
-function event(){
-
-	showImageInterval = setInterval(preshowImage, 100);
-
-	imgInterval = setInterval(function (){
-		if(ok == 3){
-			setTimeout(function(){buttonInterval = setInterval(buttonFadeIn, 50);}, 1500);
-			clearInterval(imgInterval);
-		}
-	}, 50);
+function hideTypeDiv() {
+    var txt = document.getElementById("typeDiv");
+    txt.style.display = "none";  // Hide after work is completed
 }
+
+function event(){
+    showImageInterval = setInterval(preshowImage, 100);
+
+    imgInterval = setInterval(function (){
+        if(ok == 3){
+            setTimeout(function(){
+                buttonInterval = setInterval(buttonFadeIn, 50);
+                hideTypeDiv(); // Hides typeDiv after completing its work
+            }, 1500);
+            clearInterval(imgInterval);
+        }
+    }, 50);
+}
+
 
 var showImageInterval;
 var imgInterval;
