@@ -5,27 +5,28 @@ btn.style.opacity = 0;
 var btnVal = 0;
 
 
-function showImage(){
-    if (imageIndex < len) { // Show images until the last one
+function showImage() {
+    if (imageIndex < len) {
         myImage.setAttribute("src", imageArray[imageIndex]);
         myTxt.innerHTML = txtArray[imageIndex];
-        myTxt.style.fontSize = "24px"; // Adjust font size if needed
-        myTxt.style.fontWeight = "bold"; 
-        myTxt.style.color = "#ffffff"; 
-
         imageIndex++;
     } else {
-        clearInterval(showImageInterval); // Stop the loop when all images are shown
+        clearInterval(showImageInterval); // Stop slideshow
 
-        // Show "Slideshow Ended" message
-        myTxt.innerHTML = "🎉 Bass tuza krta mala kahi tri chan gift Dych Hota ki je Life-Long tuza sbt rahil ani maze kahi feelings je convey krayche hote tula..🎉"<br>"✨jr kahi Chukich kinva Jasta Bollo asel tr Please mla maaf krshil🙏🎂(I Just wanted to make u Happy..! ) I hope Tula Avdel ..!🤞"<br>"Once again Happy Birthday..🎂🎂🥳..!& Love You..💌"; 
-        // myTxt.style.fontSize = "28px"; // Make message larger
-        // myTxt.style.color = "#ffcc00"; // Highlight in different color
-        // myTxt.style.textAlign = "center"; 
+        // Display ending message
+        myTxt.innerHTML = 
+            "🎉 Bass tuza krta mala kahi tri chan gift Dych Hota ki je Life-Long tuza sbt rahil ani maze kahi feelings je convey krayche hote tula..🎉<br>" + 
+			"Tula adhich pasunch Mahit hota ki mi tuza premat ahe but tula Jevdha Mahit ahe mi Tya peksha khup Jast veda zalo ahe ..🫶 that I am deeply into You..!🤗<br>"+
+			"Mahit ahe Tu Tyla Visru Nahi Shkt nahi Mi tula But kuthe tri tula step out kra lagel Ruchii ani he must ahe tuza krta ..Force nahi krt ahe but Suggest krt ahe ki try TO Move out and Find something better Fot You..<br>"+
+			"bass shevtach bolto ki ...[I always be there for you bolnya sathi nahi bolate ahe shevat priyanta rahil.]..🩵🫂♾️ ..! sooo I Really wanted to be with you ..🫴🫴..<br>"+
+			"Mi Last priyanta tuzi vaat baghel maza sbt yenya sathi tu ghe tula jevdha vel ghych ahe ..bass ek nehmi laksaht thevshil ki koni tri ahe tuza sathi jo tuza vedya sarkhi vaat baght ahe {💝I Love Ruchii Mana Pasun ..💓💓💌}<br>"+
+			"Yeshil Maza Sbt...??🤞🤞✨ ani yacha uttar chi ghyi nahi ahe mala Armat dila tri chalel..bharpur vel ahe aplya jawal..🩵🫴🫴 <br><br>"+
+			"✨jr kahi Chukich kinva Jasta Bollo asel tr Please mla maaf krshil🙏🎂 (I Just wanted to make u Happy..! ) I hope Tula Avdel ..!🤞<br>" + 
+            "Once again Happy Birthday..🎂🎂🥳..! & Love You..💌";
 
-        // Optional: Hide the image after the slideshow ends
-        myImage.style.display = "none";
-    }
+        myImage.style.display = "none"; // Hide last image
+	     
+    }				
 }
 
 

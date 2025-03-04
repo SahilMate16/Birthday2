@@ -59,7 +59,7 @@ body {
   
   #together {
 	font-family: 'Courier New', Courier, monospace;
-	margin-top: 110px;
+	margin-top: 10px;
 	font-size: 2.9rem;
   }
   #sac{
@@ -67,11 +67,11 @@ body {
   }
   
   #timer {
-	font-size: 1.2rem;
+	font-size: 2.6rem;
   }
   
   #d, #h, #m, #s {
-	font-size: 1.9rem;
+	font-size: 3rem;
   }
   
   /* Heart button */
@@ -115,6 +115,20 @@ body {
 	width: 55px;
 	height: 55px;
   }
+  #imgTxt #Txt {
+    font-size: 32px;
+    font-weight: bold;
+    color: #addfdd !important; /* Ensures color change */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding: 5px; */
+	margin-top: -4rem;
+    display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+}
+
   
   /* Responsive image and text */
   #imgTxt {
@@ -123,11 +137,12 @@ body {
 	width: 90%;
 	max-width: 600px;
 	text-align: center;
+	/* font-size: 50%; */
   }
   
   #img {
 	display: block;
-	width: 80%; /* Set a fixed width */
+	width: 85%; /* Set a fixed width */
 	height: 90%; /* Set a fixed height */
 	object-fit: cover; /* Ensures images maintain aspect ratio and crop properly */
 	border-radius: 10px; /* Adds smooth corners */
@@ -136,7 +151,7 @@ body {
   }
   
   #Txt, #tmp {
-	font-size: 2.3rem;
+	font-size: 2.8rem;
 	color: rgb(183, 217, 220);;
 	text-shadow: 2px 2px 4px rgba(243, 239, 239, 0.5); 
   }
@@ -146,7 +161,7 @@ body {
 	h1 {
 	  font-size: 1.8rem;
 	}
-	#txt1 {
+	#txt1 {	
 	  font-size: 1.5rem;
 	}
 	#txt2, #txt3 {
