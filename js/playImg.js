@@ -15,8 +15,8 @@ function showImage() {
 
         // Display ending message
         myTxt.innerHTML = 
-            "🎉 Bass tuza krta mala kahi tri chan gift Dych Hota ki je Life-Long tuza sbt rahil ani maze kahi feelings je convey krayche hote tula..🎉<br>" + 
-			"Tula adhich pasunch Mahit hota ki mi tuza premat ahe but tula Jevdha Mahit ahe mi Tya peksha khup Jast veda zalo ahe ..🫶 that I am deeply into You..!🤗<br>"+
+            "🎉 Bass tuza krta mala kahi tri chan gift Dych Hota ki je Life-Long tuza sbt rahil ani maze kahi feelings je convey kraych hote tula..🎉<br><br>" + 
+			"Tula adhich pasunch Mahit hota ki mi tuza premat ahe but tula Jevdha Mahit ahe mi Tya peksha khup Jast veda zalo ahe ..🫶 that I am deeply into You..!🤗<br><br>"+
 			"Mahit ahe Tu Tyla Visru Nahi Shkt nahi Mi tula But kuthe tri tula step out kra lagel Ruchii ani he must ahe tuza krta ..Force nahi krt ahe but Suggest krt ahe ki try TO Move out and Find something better Fot You..<br>"+
 			"bass shevtach bolto ki ...[I always be there for you bolnya sathi nahi bolate ahe shevat priyanta rahil.]..🩵🫂♾️ ..! sooo I Really wanted to be with you ..🫴🫴..<br>"+
 			"Mi Last priyanta tuzi vaat baghel maza sbt yenya sathi tu ghe tula jevdha vel ghych ahe ..bass ek nehmi laksaht thevshil ki koni tri ahe tuza sathi jo tuza vedya sarkhi vaat baght ahe {💝I Love Ruchii Mana Pasun ..💓💓💌}<br>"+

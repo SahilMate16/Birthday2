@@ -116,14 +116,14 @@ body {
 	height: 55px;
   }
   #imgTxt #Txt {
-    font-size: 32px;
+    font-size: 32.9px;
     font-weight: bold;
     color: #addfdd !important; /* Ensures color change */
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 5px;
-	margin-top: -4rem;
+    /* padding: 5px; */
+	margin-top: -20%;
     display: block;
 	
 }
