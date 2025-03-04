@@ -122,11 +122,10 @@ body {
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* padding: 5px; */
+    padding: 5px;
 	margin-top: -4rem;
-    display: flex;
-	flex-wrap: wrap;
-	position: absolute;
+    display: block;
+	
 }
 
   
@@ -137,7 +136,7 @@ body {
 	width: 90%;
 	max-width: 600px;
 	text-align: center;
-	/* font-size: 50%; */
+	font-size: 50%;
   }
   
   #img {
